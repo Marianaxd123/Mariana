@@ -41,4 +41,43 @@ console.log("elgrado es: " + gradoEstudiante);
 /*constantes son valores que una vez inicializados no pueden cambiar lo que almacenan.se crean con la palabra reservada const el nombre de las constantes se escribe todo en mayuscula para diferenciarlo de las variables.
  */
 const PI = 3.1416 ;
-PI = 5 ;
+// PI = 5 ;
+// imprimir por consola
+//simple
+console.log("mensaje");
+console.log(nombre);
+//concatenado
+console.log("la edad es "+edad+ "años");
+
+//operadores
+//suma
+var a = 10;
+let b = 20;
+var suma =a + b
+console.log(suma);
+
+// residuo 
+var residuo; 
+residuo= 12% 2;//0
+console.log (residuo); 
+
+// contadores 
+// incremento  
+var incre=1 ; 
+console.log (incre); 
+incre=incre+1; 
+console.log (incre); 
+incre+=1;
+console.log(incre); 
+incre++;
+console.log(incre); 
+
+// decremento
+var decre=1 ; 
+console.log (decre); 
+decre=decre-1; 
+console.log (decre); 
+decre-=1;
+console.log(decre); 
+decre--;
+console.log(decre); 

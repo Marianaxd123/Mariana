@@ -81,3 +81,43 @@ decre-=1;
 console.log(decre); 
 decre--;
 console.log(decre); 
+
+// operaciones aumentadas 
+// son operaciones que se les realiza a una variable y el resultado se guarda en si misma 
+var sumaaumento;
+sumaaumento 
+sumaaumento += 1 ;
+sumaaumento +=48 ;
+// la variable debe tener un valor antes de realizar la operacion 
+console.log(sumaaumento); 
+
+var restaaumento;
+restaaumento =20
+restaaumento -= 1 ;
+restaaumento -=8 ; 
+console.log(restaaumento);
+
+var restaaumento;
+restaaaumento =20
+restaaumento -= 1 ;
+restaaumento -=8 ; 
+console.log(restaaumento);
+
+// potencia 
+var exp;
+exp = 3 **2 ; // 3^2 
+console.log (exp); // 9
+exp = 3**3 ; // 3^3
+console.log (exp); // 27
+
+// cadenas o texto
+// suma de cadenas
+var nombre= "mariana"
+var apeliido = "arboleda"; 
+var nomcompleto = nombre + " " + apellido; 
+console.log (nomcompleto); 
+// .length 
+// permite saber la longuitud de una cadena o el tamaño de un vector 
+// para encontrar eñ caracter en la ultima posicion de una cadena se debe buscar la longuitud menos 1 
+(lenght-1)
+

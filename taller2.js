@@ -18,7 +18,7 @@ var perimetrorectangu = lado + altura + lado2 + altura2
 console.log ("el perimetro del rectangulo es " + perimetrorectangu)
 
 //3. 
-var diametro = prompt ("por favor ingrese el radio del circulo"); 
+var diametro = prompt ("por favor ingrese el diametro del circulo"); 
 var diametrocirculo = diametro/Math.PI;
 console.log ("el diametro del circulo es " + diametrocirculo)
 
@@ -69,7 +69,5 @@ var kilometros = prompt ("por favor ingrese la distancia en kilometros que quier
 var milimetros = kilometros* 1000
 console.log ("su distancia de kilometros pasada a miletros es" + milimetros); 
 
-
-
-
+vscode
 

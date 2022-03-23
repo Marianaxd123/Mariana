@@ -3,9 +3,9 @@ fecha 24/02/2022
 realizado por mariana peñaranda y valeria arboleda
 */ 
 var nombres // string
-console.log (nombres); 
+ 
 var grado = "10b" // int 
-console.log (grado);
+
 var edad // int 
 console.log (edad); 
 

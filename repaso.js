@@ -27,6 +27,6 @@ console.log("el total de los litros a kilolitros es" + totalkilolitros)
 //cuarto punto 
 var diametro=prompt("por favor ingrese el diametro del circulo");
 circunferencia= diametro * 3.1416
-area= 
-console.log("la circunferencia del circulo es " + circunferencia + "el area es " +);
+area= circunferencia^2 / 4 * 3.1416
+console.log("la circunferencia del circulo es " + circunferencia + "el area es " + area );
 

@@ -30,12 +30,12 @@ Examen: Nota 3.1
     * punto 5, falta la condicion cuando escriba alguna palabra que no pertenezca a la tabla. El condicional que debía utilizar es condicional multiple.
     * punto 6, debía hacerse también con condiconal multiple y tampoco tiene la opcion en caso que se pida un sabor que no exista (no suma puntos)
 
-Taller condicionales: Nota 3.8
+Taller condicionales: Nota 3.2
     * linea 29, falta el =
     * linea 35, falta una condicion
     * linea 38, condicion incompleta
     * linea 47, faltan los =
     * linea 49, falta una condicion
     * linea 59, no cumple
-    * ejercicio 11, debía utilizar condicional multiple
+    * ejercicio 11, debía utilizar condicional multiple. Además si el dia no es lunes, imprime que el plato es chuleta de cerdo. Y, si es lunes imprime todos los demás
     * punto 12, no esta resuelto

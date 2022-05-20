@@ -21,7 +21,7 @@ if (numero <0 ){
    console.log("El número no es positivo");
 }else if(numero === "1"){
     console.log('El número es igual a "1" en tipo y valor');
-}else if(numero>=1 && numero<10){
+}else if(numero=10 && numero<=10){
     console.log("El número es mayor igual que 1 y menor igual a 10");
 }else if(numero<100){
     console.log("El número es menor que 100");
@@ -45,23 +45,26 @@ console.log ( numero1 + " es menor que " + numero2);
 
 //5 
 
-var palabra= "HOUSE"
+var palabra= "dog"
 if (palabra=="DOG"){
     console.log (palabra + " en español significa perro" );
 }
 
-if (palabra=="CAR"){
+else if (palabra=="CAR"){
     console.log (palabra + " en español significa carro" );
 }
 
-if (palabra=="RED"){
+else if (palabra=="RED"){
     console.log (palabra + " en español significa rojo" );
 }
 
-if (palabra=="HOUSE"){
+else if (palabra=="HOUSE"){
     console.log (palabra + " en español significa casa" );
+} else{ 
+console.log("esa palabra no se encuentra en el diccionario")
 }
 //6 
+
 var sabor = "chocolate"
 var pisos = "2"
 

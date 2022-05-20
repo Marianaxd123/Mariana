@@ -25,7 +25,7 @@ Arreglos (observaciones generales del archivo): Nota 1.6
 Enlace examen: https://acortar.link/WAVSjX
 
 
-Examen: Nota 3.1
+Examen: Nota 3.6
     * linea 24, falta el = a 10 es <=10
     * punto 5, falta la condicion cuando escriba alguna palabra que no pertenezca a la tabla. El condicional que debía utilizar es condicional multiple.
     * punto 6, debía hacerse también con condiconal multiple y tampoco tiene la opcion en caso que se pida un sabor que no exista (no suma puntos)

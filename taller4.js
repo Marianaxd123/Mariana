@@ -20,8 +20,8 @@ if(edad>=18){
     console.log("Bienvenido, puede ingresar");
 }else{
     console.log("Lo siento, no tiene edad suficiente para entrar aquí");
-}
-
+} edad = 10
+  edad <=10
 // 4
 var numero1 = 5;
 var numero2 = 8;
@@ -36,7 +36,7 @@ if(numero1<0) {
   console.log("numero1 es negativo o distinto de cero");
 }
 if(numero1<numero2) {
-  console.log("Incrementar en 1 unidad el valor de numero1 no lo hace mayor o igual que numero2");
+  console.log("Incrementar en 1 unidad el valor de " + numero1 + "no lo hace mayor o igual que " + numero2);
 }
 
 // 5 

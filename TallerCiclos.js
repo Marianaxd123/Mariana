@@ -76,3 +76,12 @@ console.log ("felicidades se gano la rifa")
 console.log ("el numero de intentos fue" + inte)
 
 
+
+
+mayor=arreglo[0] //el primer valor del arreglo
+for(var i=0; i<10; i++){
+
+    if(arreglo[i] > mayor){
+        mayor = arreglo[i]//valor en la posicion actual del arreglo
+    }
+}

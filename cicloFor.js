@@ -43,3 +43,25 @@ for(var i=1; i<=5; i++){ //no siempre el ciclo for debe empezar en cero
     nombre=prompt("Ingrese el nombre número "+i)//el mensaje es más específico para que el usuario sepa en qué número de registro está
     arregloNombres.push(nombre); //.push() es el método que permite insertar elementos al final del arreglo
 }
+
+//6
+for(var i=0; i<arregloNombres.length; i++){ //i inicia en 0 porque las posiciones de los arreglos comienzan en cero y va hasta arregloNombres.length que retorna el tamaño del arreglo (cantidad de elementos dentro)
+    console.log("El nombre en la posicion "+ i +" es "+ arregloNombres[i]) //imprime el valor de cada posición. i va aumentando, por tanto, va avanzando en posiciones. arregloNombres[i] accede al valor en la posición
+}
+
+// 7
+var arregloNotas=[]
+var cantNotas=parseInt(prompt("¿Cuántas notas va a ingresar?"))
+var nota;
+for(var i=1; i<=cantNotas; i++){
+    nota=parseFloat(prompt("Ingrese la nota número "+i));
+    arregloNotas.push(nota);
+}
+//  8 
+var acumuladoNotas=0; //variable que va a aguardar la sumatoria de las notas en el vector
+var promedio; //guarda el promedio final
+for(var i=0; i<arregloNotas.length; i++){ //puede utilizarse tanto cantNotas como arregloNotas.length. Recuerde que debe empezar en 0 para tomar la primera posición del arreglo
+acumuladoNotas += arregloNotas[i]; //accede a cada posición y el valor lo suma con acumuladoNotas y lo guarda en esa misma variable
+}
+promedio = acumuladoNotas/cantNotas;
+console.log("El promedio de las notas del curso es " + promedio);

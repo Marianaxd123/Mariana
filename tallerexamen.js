@@ -1,4 +1,4 @@
-/*// Valeria Arboleda
+// Valeria Arboleda
 // Mariana Peñaranda 
 
 // Primer punto 
@@ -39,8 +39,20 @@ var mayor= arreglonum[0]
 
 for(var i=0; i<10; i++){
     if(arreglonum[i] > mayor){
-        mayor = i 
+        mayor = arreglonum[i]
     }
     console.log("El numero mas grande es "+ arreglonum[i]) 
 }
 
+// Quinto Punto 
+var arreglitos0=[]
+var productico
+for(var i=1; i<=5; i++){
+    productico=prompt("por favor ingrese los articulos que desea comprar")
+    arreglitos0.push(productico)
+}
+var arreglitoprecio =[]
+for(var i=0; i<arreglitos0.length;i++){
+    var precio = parseFloat(prompt("Ingrese el precio del producto " + arreglitos0[1]))
+    arreglitoprecio.push(precio)
+}

@@ -54,5 +54,6 @@ for(var i=1; i<=5; i++){
 var arreglitoprecio =[]
 for(var i=0; i<arreglitos0.length;i++){
     var precio = parseFloat(prompt("Ingrese el precio del producto " + arreglitos0[1]))
-    arreglitoprecio.push(precio)
+    arreglitoprecio.push(precio
+        )
 }
